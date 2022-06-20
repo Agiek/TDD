@@ -123,6 +123,3 @@ class NewVisitorTest(LiveServerTestCase):
 		self.assertIn('Buy milk', page_text)
 
 		# Satisfied, they both go back to sleep.
-
-if __name__ == '__name__': #(6)
-    unittest.main(warnings='ignore') # (7)
